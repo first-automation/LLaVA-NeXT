@@ -80,7 +80,11 @@ conda create -n llava python=3.10 -y
 conda activate llava
 pip install --upgrade pip  # Enable PEP 660 support.
 pip install -e ".[train]"
+pip install "gradio==4.39.0"
+pip install "setuptools==69.5.1"
 pip install flash-attn --no-build-isolation
+python download_model.py
+python playground/demo/interleave_demo.py --model_path path/to/ckpt
 ```
 
 ### Project Navigation

@@ -34,7 +34,7 @@ train = [
     "llava[standalone]",
     "open_clip_torch",
     "fastapi",
-    "gradio==4.39.0",
+    "gradio",
     "markdown2[all]",
     "numpy",
     "requests",
@@ -64,7 +64,8 @@ train = [
     "rouge",
     "urllib3<=2.0.0",
     "opencv-python",
-    "wheel"
+    "wheel",
+    "openai"
 ]
 
 [project.urls]
