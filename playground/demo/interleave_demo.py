@@ -221,7 +221,7 @@ with gr.Blocks() as demo:
         elem_id="chatbot",
         bubble_full_width=False
     )
-    chat_input = gr.MultimodalTextbox(interactive=True, file_types=["image","video"], placeholder="Enter message or upload file...", show_label=False)
+    chat_input = gr.MultimodalTextbox(interactive=True, file_types=["image","video"], file_count="multiple", placeholder="Enter message or upload file...", show_label=False)
     
     
 
