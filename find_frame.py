@@ -5,7 +5,7 @@ import open_clip
 import numpy as np
 
 # 動画パスとフレーム抽出間隔を設定
-video_path = "playground/demo/pc_assembly_youtube.mp4"
+video_path = "playground/demo/pc_assembly_youtube_3.mp4"
 interval = 5  # 秒
 
 # OpenCLIPモデルと前処理の設定
@@ -86,20 +86,20 @@ def select_frames_with_dp(similarities):
 
 # 解説文のリスト
 descriptions = [
-    "Intel Core i5-12600K CPUの箱を開ける",
-    "ASUS B600M PRO Gaming Motherboardの箱を開ける",
-    "モザイド封入のMotherboardを取り出す",
-    "CPUをMotherboardに取り付ける",
-    "RAMモジュールをMotherboardに取り付ける",
-    "CPU風扇を取り付け、電線を接続する",
-    "PCケースを開ける",
-    "CPU風扇を取り付け、電線を接続する",
-    "パワーサプライPSUを取り付け、電線を接続する",
-    "GPUカード (GeForce RTX 3060)を取り付け、電線を接続する",
-    "PCケースの側面パネルを閉じる",
-    "Windows 10 Pro 21H2をインストールする",
-    "OneBenchMarkを実行して、PCの性能を測定する",
-    "Apex Legendsゲームをプレイして、PCのグラフィックス性能を測定する"
+    "Unbox the ASUS ROG DARK Hero motherboard box, revealing stickers and documentation.",
+    "Unbox the AMD Ryzen 9 3rd Gen processor box, showing the processor inside.",
+    "Unbox the Corsair Vengeance LPX RAM module box, displaying the RAM module.",
+    "Unbox the Corsair H150i Elite Capellix liquid cooling kit box, showing the cooling kit inside.",
+    "Install the AMD Ryzen 9 3rd Gen processor into the motherboard socket using a screwdriver.",
+    "Apply thermal paste to the processor using a small tool.",
+    "Install the Corsair Vengeance LPX RAM module into the motherboard slot.",
+    "Assemble the black computer case by installing the front panel and securing it with screws.",
+    "Install the Corsair H150i Elite Capellix liquid cooling kit onto the motherboard.",
+    "Attach the liquid cooling tubes to the motherboard and processor.",
+    "Install the graphics card into the case.",
+    "Connect the cables to the motherboard and graphics card.",
+    "Power on the computer and check the RGB lighting and system status on the monitor.",
+    "Give a thumbs-up gesture in front of the computer setup.",
 ]
 
 # 各ステップを実行
