@@ -39,7 +39,7 @@ train = [
     "numpy",
     "requests",
     "sentencepiece",
-    "torch==2.1.2",
+    "torch==2.8.0",
     "torchvision==0.16.2",
     "uvicorn",
     "wandb==0.16.5",
